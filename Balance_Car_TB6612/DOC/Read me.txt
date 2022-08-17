@@ -1,0 +1,41 @@
+引脚连接
+/////////定时器用途
+TIM1 PWM
+TIM2 编码器左
+TIM3 计时
+TIM4 编码器右
+/////////串口
+uart2：txPA2,,RX PA3
+/////////OLED
+OLED :
+SCL:PB4,SDA:PB5
+/////////MPU6050
+MPU6050:
+SCL:PA6 SDA:PA7
+/////////ADC,LED
+LED:PC13
+ADC:PA5
+
+/////////超声波，按键，程序暂未实现
+超声波：trigPB0,ePB1
+按键 ：key0PC14
+key1PC15
+key2PA10
+
+/////////电机  编码器
+L298N    
+out1 --Aout1右电机
+out2 --Aout2
+PWM--PA8  ch1 
+IN1-- B8
+IN2--B3
+左编码器 PA0，PA1
+
+
+out3--Bout1
+out4--Bout2
+PWM--PA9  ch2
+IN3--A15
+IN4--B12
+右编码器 PB6,PB7
+
